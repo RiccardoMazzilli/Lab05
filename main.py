@@ -141,12 +141,12 @@ def main(page: ft.Page):
 
     # Pulsanti per la gestione dell'inserimento di un nuovo strumento
     btn_minus_valore = ft.IconButton(
-        icon=ft.icons.REMOVE,
+        icon=ft.Icons.REMOVE,
         icon_color="red",
         on_click=decrementa_valore
     )
     btn_plus_valore = ft.IconButton(
-        icon=ft.icons.ADD,
+        icon=ft.Icons.ADD,
         icon_color="green",
         on_click=incrementa_valore
     )
